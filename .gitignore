@@ -1,0 +1,28 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# Local handover notes and agent state
+/对话交接与版本优化总览.md
+/.learnings/
+
+# macOS and local editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# Build and release outputs
+.build/
+.build-*/
+.build-universal/
+dist/
+*.dmg
+*.dmg.sha256
+*.app/
